@@ -37,6 +37,8 @@ This project uses Power BI DAX & Visualization tool to analyze sales data from G
 
 ## II. Dataset Description & Data Structure
 
+The dataset consist of 3 tables: Orders, People, Returns. Here is the Data dictionary:
+
 **Orders.csv**
 
 | Column | Data type | Description |
@@ -89,11 +91,14 @@ The Design Thinking Process was implied to understand stakeholders' need to crea
 
 3️⃣ Ideate
 
-![image](https://github.com/user-attachments/assets/7c3d2b3f-0de6-4f42-8f8d-47c9fffe628c)
+![image](https://github.com/user-attachments/assets/c37dc1a3-1975-4d0f-a231-622284ad63e4)
+
+![image](https://github.com/user-attachments/assets/6412c019-52f8-4081-a843-f8d21da6dbcf)
 
 4️⃣ Prototype and review
 
-![image](https://github.com/user-attachments/assets/2944cb63-e235-45d5-90bc-43fe8048a906)
+![image](https://github.com/user-attachments/assets/08fe17bb-aab6-4be1-ba8a-a169e8dfe0ce)
+
 
 ## IV. Key Insights & Visualizations
 
