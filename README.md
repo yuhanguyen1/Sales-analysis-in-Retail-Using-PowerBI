@@ -40,30 +40,30 @@ This project uses Power BI DAX & Visualization tool to analyze sales data from G
 Orders.csv
 
 | Column | Data type | Description |
-| :---:        |     :---:      |          :---:  |
-| Order ID  | TEXT |   |
-| Order Date | DATETIME |  |
-| Ship Date | DATETIME |  |
-| Region | TEXT |  |
-| Product ID | TEXT |   |
-| Category | TEXT |  |
-| Sub-Category | TEXT |  |
-| Product Name | TEXT |  |
-| Sales | FLOAT |  |
-| Quantity | INTEGER |  |
-| Profit | FLOAT |  |
+| :---: | :---: | :---: |
+| Order ID  | TEXT | ID of the order |
+| Order Date | DATETIME | The date the order was placed |
+| Ship Date | DATETIME | The date the order was delivered |
+| Region | TEXT | Name of the region where the order was placed |
+| Product ID | TEXT | ID of the ordered product |
+| Category | TEXT | Category of the ordered product |
+| Sub-Category | TEXT | Sub-category of the ordered product |
+| Product Name | TEXT | Name of the ordered product |
+| Sales | FLOAT | The total price of the order |
+| Quantity | INTEGER | The number of product ordered |
+| Profit | FLOAT | The total profit of the order |
 
 People.csv
 
 | Column | Data type | Description |
-| :---:         |     :---:      |          :---:  |
+| :---: | :---: | :---: |
 | Person | TEXT | Name of Salesperson |
 | Region | TEXT | Region where the Salesperson is in chart of |
 
 Returns.csv
 
 | Column | Data type | Description |
-| :---:         |     :---:      |          :---:  |
+| :---: | :---: | :---: |
 | Returned | BOOLEAN | Returned orders |
 | Order ID | TEXT | ID of returned orders |
 
