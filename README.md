@@ -41,26 +41,31 @@ Orders.csv
 
 | Column | Data type | Description |
 | :---         |     :---:      |          ---: |
-|  Order ID  | git status     | git status    |
-| Order Date     | git diff       | git diff      |
-|  Ship Date  | git status     | git status    |
-| Ship Mode | git diff       | git diff      |
-|  Customer ID  | git status     | git status    |
-| Customer Name | git diff       | git diff      |
-|  Segment  | git status     | git status    |
-| City | git diff       | git diff      |
-|  State | git status     | git status    |
-| Country | git diff       | git diff      |
-|  Postal Code  | git status     | git status    |
-| Market | git diff       | git diff      |
-|  Region  | git status     | git status    |
-| Product ID | git diff       | git diff      |
-|  Category | git status     | git status    |
-|  Sub-Category | git diff       | git diff      |
-|  Product Name  | git status     | git status    |
-|  Sales  | git diff       | git diff      |
-|  Quantity  | git status     | git status    |
-|  Profit  | git diff       | git diff      |
+| Order ID  | TEXT |   |
+| Order Date | DATETIME |  |
+| Ship Date | DATETIME |  |
+| Region | TEXT |  |
+| Product ID | TEXT |   |
+| Category | TEXT |  |
+| Sub-Category | TEXT |  |
+| Product Name | TEXT |  |
+| Sales | FLOAT |  |
+| Quantity | INTEGER |  |
+| Profit | FLOAT |  |
+
+People.csv
+
+| Column | Data type | Description |
+| :---         |     :---:      |          ---: |
+| Person | TEXT | Name of Salesperson |
+| Region | TEXT | Region where the Salesperson is in chart of |
+
+Returns.csv
+
+| Column | Data type | Description |
+| :---         |     :---:      |          ---: |
+| Returned | BOOLEAN | Returned orders |
+| Order ID | TEXT | ID of returned orders |
 
 ## III. Design Thinking Process
 
