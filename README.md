@@ -103,67 +103,66 @@ The Design Thinking Process was implied to understand stakeholders' need to crea
 
 **Key Insights**
 
-**Tổng Quan**
+**OVerview**
 
-Doanh số đạt $12.64M, với lợi nhuận $1.47M → Tỷ suất lợi nhuận khoảng 11.6%.
+Sales reached $12.64M, with $1.47M profit → Profit margin of about 11.6%.
 
-Tổng số đơn hàng: 26K đơn, nhưng có 3,050 đơn bị hoàn trả, tương ứng tỷ lệ hoàn trả 4.55%.
+Total orders: 26K orders, but 3,050 orders were returned, corresponding to a return rate of 4.55%.
 
-Xu hướng doanh số theo thời gian: Doanh số tăng trưởng khá ổn định từ 2011-2014, nhưng có một số biến động. Quý I và II của các năm ghi nhận doanh số thấp hơn so với quý III và IV.
-
-
-**Doanh số theo khu vực**
-
-Central có doanh số cao nhất ($2.8M)
-
-Canada & Caribbean có doanh số thấp nhất ($0.1M & $0.3M)
-
-Southeast Asia (Đông Nam Á) có tiềm năng lớn ($0.9M) vì có dân số cao và nền kinh tế đang phát triển mạnh
+Sales trend over time: Sales growth was quite stable from 2011-2014, but there were some fluctuations. The first and second quarters of the years recorded lower sales compared to the third and fourth quarters.
 
 
-**Danh mục sản phẩm**
+**Region**
 
-Công nghệ (Technology) chiếm tỷ trọng lớn nhất (37.53%)
+Central has the highest sales ($2.8M)
 
-Nội thất (Furniture) cũng có doanh số cao, nhưng có thể có biên lợi nhuận thấp do chi phí cao.
+Canada & Caribbean has the lowest sales ($0.1M & $0.3M)
 
-Văn phòng phẩm (Office Supplies) có tỷ trọng gần 30%, nhưng giá trị đơn hàng thấp.
+Southeast Asia has great potential ($0.9M) due to its high population and growing economy
 
+
+**Category**
+
+Technology accounts for the largest share (37.53%)
+
+Furniture also has high sales, but may have low profit margins due to high costs.
+
+Office Supplies has a share of nearly 30%, but low order value.
 
 **Sub-category**
 
-Điện thoại (Phones) là sản phẩm bán chạy nhất → Nhưng biên lợi nhuận khá thấp do chi phí cao
+Phones are the best-selling product → But the profit margin is quite low due to high costs
 
-Ghế (Chairs) và Máy photocopy (Copiers) cũng rất tiềm năng, có thể do nhu cầu văn phòng cao.
+Chairs and Copiers are also very potential, possibly due to high office demand.
 
-Một số danh mục có doanh số rất thấp, có thể cần loại bỏ hoặc điều chỉnh chiến lược.
+Some categories have very low sales, which may need to be eliminated or the strategy adjusted.
 
-Bàn (Tables) là mặt hàng duy nhất có lợi nhuận âm (-8.46%)
+Tables are the only item with negative profit (-8.46%)
 
 ## V.  Final Conclusion & Recommendations
 
-**Khu vực**
+**Region**
 
-Đẩy mạnh chiến lược tiếp thị tại Southeast Asia, vì khu vực này có dân số lớn và nền kinh tế phát triển mạnh.
+Strengthen marketing strategy in Southeast Asia, as this region has a large population and strong economy.
 
-Tối ưu hóa chi phí tại Central để tăng lợi nhuận.
+Optimize costs in Central to increase profits.
 
-Xem xét việc rút khỏi hoặc cải tiến chiến lược tại Canada & Caribbean.
+Consider exiting or improving strategy in Canada & Caribbean.
 
 
-**Danh mục sản phẩm**
+**Category**
 
-Mở rộng danh mục công nghệ cao cấp hoặc sản phẩm có biên lợi nhuận tốt hơn.
+Expand your portfolio of high-end technology or products with better profit margins.
 
-Đẩy mạnh marketing & upsell cho Furniture, đặc biệt là các sản phẩm có giá trị cao.
+Boost marketing & upsell for Furniture, especially high-value products.
 
-Chạy chiến dịch khuyến mãi combo cho Office Supplies để tăng giá trị đơn hàng.
+Run combo promotion campaigns for Office Supplies to increase order value.
 
 
 **Sub-category**
 
-Mở rộng danh mục điện thoại, bổ sung thêm phụ kiện upsell để tăng doanh thu.
+Expand phone portfolio, add upsell accessories to increase revenue.
 
-Tăng quảng cáo cho sản phẩm ghế & máy photocopy, đặc biệt trong phân khúc doanh nghiệp.
+Increase advertising for chairs & photocopiers, especially in the business segment.
 
-Loại bỏ hoặc tối ưu danh mục có doanh số hoặc lợi nhuận thấp như Tables Labels, Fasteners, hoặc Envelopes.
+Eliminate or optimize low-sales or low-profit categories such as Tables , Fasteners, or Envelopes.
