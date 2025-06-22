@@ -77,7 +77,7 @@ The Design Thinking Process was implied to understand stakeholders' need to crea
 
 1️⃣ Empathize
 
-![image](https://github.com/user-attachments/assets/7d4a7250-8a29-478c-b5fc-e80ab0cfb8c5)
+![image](https://github.com/user-attachments/assets/e263602f-9f82-4775-b6a4-7f1cfb5cabf3)
 
 ![image](https://github.com/user-attachments/assets/de8335d1-26d7-4998-8532-faf045be4886)
 
