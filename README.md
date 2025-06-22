@@ -37,7 +37,7 @@ This project uses Power BI DAX & Visualization tool to analyze sales data from G
 
 ## II. Dataset Description & Data Structure
 
-Orders.csv
+**Orders.csv**
 
 | Column | Data type | Description |
 | :---: | :---: | :---: |
@@ -53,19 +53,24 @@ Orders.csv
 | Quantity | INTEGER | The number of product ordered |
 | Profit | FLOAT | The total profit of the order |
 
-People.csv
+**People.csv**
 
 | Column | Data type | Description |
 | :---: | :---: | :---: |
 | Person | TEXT | Name of Salesperson |
 | Region | TEXT | Region where the Salesperson is in chart of |
 
-Returns.csv
+**Returns.csv**
 
 | Column | Data type | Description |
 | :---: | :---: | :---: |
 | Returned | BOOLEAN | Returned orders |
 | Order ID | TEXT | ID of returned orders |
+
+**Data Model**
+
+![image](https://github.com/user-attachments/assets/011aa946-092d-4e70-8db9-1396b61d2296)
+
 
 ## III. Design Thinking Process
 
