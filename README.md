@@ -40,7 +40,7 @@ This project uses Power BI DAX & Visualization tool to analyze sales data from G
 Orders.csv
 
 | Column | Data type | Description |
-| :---         |     :---:      |          ---: |
+| :---:        |     :---:      |          :---:  |
 | Order ID  | TEXT |   |
 | Order Date | DATETIME |  |
 | Ship Date | DATETIME |  |
@@ -56,14 +56,14 @@ Orders.csv
 People.csv
 
 | Column | Data type | Description |
-| :---         |     :---:      |          ---: |
+| :---:         |     :---:      |          :---:  |
 | Person | TEXT | Name of Salesperson |
 | Region | TEXT | Region where the Salesperson is in chart of |
 
 Returns.csv
 
 | Column | Data type | Description |
-| :---         |     :---:      |          ---: |
+| :---:         |     :---:      |          :---:  |
 | Returned | BOOLEAN | Returned orders |
 | Order ID | TEXT | ID of returned orders |
 
