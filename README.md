@@ -37,7 +37,7 @@ This project uses Power BI DAX & Visualization tool to analyze sales data from G
 
 ## II. Dataset Description & Data Structure
 
-The dataset consist of 3 tables: Orders, People, Returns. Here is the Data dictionary:
+The dataset consist of 3 tables: Orders, People, Returns. To process the data, I also created a date table and a measure table using DAX. Here is the Data dictionary:
 
 **Orders.csv**
 
