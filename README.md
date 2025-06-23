@@ -37,13 +37,13 @@ This project uses Power BI DAX & Visualization tool to analyze sales data from G
 
 ## II. Dataset Description & Data Structure
 
-The dataset consist of 3 tables: Orders, People, Returns. To process the data, I also created a date table and a measure table using DAX. Here is the Data dictionary:
+The dataset consist of 3 tables: Orders, People, Returns. Here is the Data dictionary:
 
 **Orders.csv**
 
 | Column | Data type | Description |
 | :---: | :---: | :---: |
-| Order ID  | TEXT | ID of the order |
+| Order ID | TEXT | ID of the order |
 | Order Date | DATETIME | The date the order was placed |
 | Ship Date | DATETIME | The date the order was delivered |
 | Region | TEXT | Name of the region where the order was placed |
@@ -75,7 +75,7 @@ The dataset consist of 3 tables: Orders, People, Returns. To process the data, I
 
 
 ## III. Design Thinking Process
-The Design Thinking Process was implied to understand stakeholders' need to create the best dashboard. The process consist of the following 4 steps:
+The Design Thinking Process was implied to understand dashboard viewers' need to create the best dashboard. The process consist of the following 4 steps:
 
 1️⃣ Empathize
 
@@ -110,64 +110,64 @@ The Design Thinking Process was implied to understand stakeholders' need to crea
 
 **OVerview**
 
-Sales reached $12.64M, with $1.47M profit → Profit margin of about 11.6%.
++ Sales reached $12.64M, with $1.47M profit → Profit margin of about 11.6%.
 
-Total orders: 26K orders, but 3,050 orders were returned, corresponding to a return rate of 4.55%.
++ Total orders: 26K orders, but 3,050 orders were returned, corresponding to a return rate of 4.55%.
 
-Sales trend over time: Sales growth was quite stable from 2011-2014, but there were some fluctuations. The first and second quarters of the years recorded lower sales compared to the third and fourth quarters.
++ Sales trend over time: Sales growth was quite stable from 2011-2014, but there were some fluctuations. The first and second quarters of the years recorded lower sales compared to the third and fourth quarters.
 
 
 **Region**
 
-Central has the highest sales ($2.8M)
++ Central has the highest sales ($2.8M)
 
-Canada & Caribbean has the lowest sales ($0.1M & $0.3M)
++ Canada & Caribbean has the lowest sales ($0.1M & $0.3M)
 
-Southeast Asia has great potential ($0.9M) due to its high population and growing economy
++ Southeast Asia has great potential ($0.9M) due to its high population and growing economy
 
 
 **Category**
 
-Technology accounts for the largest share (37.53%)
++ Technology accounts for the largest share (37.53%)
 
-Furniture also has high sales, but may have low profit margins due to high costs.
++ Furniture also has high sales, but may have low profit margins due to high costs.
 
-Office Supplies has a share of nearly 30%, but low order value.
++ Office Supplies has a share of nearly 30%, but low order value.
 
 **Sub-category**
 
-Phones are the best-selling product → But the profit margin is quite low due to high costs
++ Phones are the best-selling product → But the profit margin is quite low due to high costs
 
-Chairs and Copiers are also very potential, possibly due to high office demand.
++ Chairs and Copiers are also very potential, possibly due to high office demand.
 
-Some categories have very low sales, which may need to be eliminated or the strategy adjusted.
++ Some categories have very low sales, which may need to be eliminated or the strategy adjusted.
 
-Tables are the only item with negative profit (-8.46%)
++ Tables are the only item with negative profit (-8.46%)
 
 ## V.  Final Conclusion & Recommendations
 
 **Region**
 
-Strengthen marketing strategy in Southeast Asia, as this region has a large population and strong economy.
++ Strengthen marketing strategy in Southeast Asia, as this region has a large population and strong economy.
 
-Optimize costs in Central to increase profits.
++ Optimize costs in Central to increase profits.
 
-Consider exiting or improving strategy in Canada & Caribbean.
++ Consider exiting or improving strategy in Canada & Caribbean.
 
 
 **Category**
 
-Expand your portfolio of high-end technology or products with better profit margins.
++ Expand your portfolio of high-end technology or products with better profit margins.
 
-Boost marketing & upsell for Furniture, especially high-value products.
++ Boost marketing & upsell for Furniture, especially high-value products.
 
-Run combo promotion campaigns for Office Supplies to increase order value.
++ Run combo promotion campaigns for Office Supplies to increase order value.
 
 
 **Sub-category**
 
-Expand phone portfolio, add upsell accessories to increase revenue.
++ Expand phone portfolio, add upsell accessories to increase revenue.
 
-Increase advertising for chairs & photocopiers, especially in the business segment.
++ Increase advertising for chairs & photocopiers, especially in the business segment.
 
-Eliminate or optimize low-sales or low-profit categories such as Tables , Fasteners, or Envelopes.
++ Eliminate or optimize low-sales or low-profit categories such as Tables , Fasteners, or Envelopes.
