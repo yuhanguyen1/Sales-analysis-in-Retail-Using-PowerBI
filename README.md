@@ -21,7 +21,7 @@ Tools used: Power BI (DAX & Visualization)
 
 ## I. Background & Overview
 
-Objective:
+### Objective:
 
 This project uses Power BI DAX & Visualization tool to analyze sales data from Global Superstore to:
 
@@ -29,7 +29,7 @@ This project uses Power BI DAX & Visualization tool to analyze sales data from G
 
 ✔️ Monitorize product portfolio's performnance, identify top product categories & top regions.
 
-👤 Who is this project for?
+### Who is this project for?
 
 ✔️ Data analysts & business analysts
 
