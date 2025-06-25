@@ -1,4 +1,4 @@
-# Global-Superstore-Sales-Analysis
+# Sales analysis in Retail using PowerBI
 Used Power BI to visualize sales overview of Global Superstore, create actionable insights and recommendations.
 
 Author: Nguyen Anh Huy
