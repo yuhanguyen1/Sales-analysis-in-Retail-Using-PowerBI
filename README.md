@@ -1,6 +1,6 @@
 # Sales analysis in Retail Using PowerBI
 
-Used Power BI to visualize sales overview of Global Superstore, create actionable insights and recommendations.
+Analyzed ~52k sales records to develop interactive Power BI dashboards to visualize sales performance of the Global Superstore dataset, uncovering key trends across regions, segments, and categories to generate actionable insights and strategic recommendations for business growth.
 
 Author: Nguyen Anh Huy
 
