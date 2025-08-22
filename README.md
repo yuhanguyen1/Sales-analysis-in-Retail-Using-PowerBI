@@ -1,174 +1,154 @@
-# Sales analysis in Retail Using PowerBI
+# 🛒 Sales Analysis in Retail Using Power BI | Global Superstore  
 
-Analyzed ~52k sales records to develop interactive Power BI dashboards to visualize sales performance of the Global Superstore dataset, uncovering key trends across regions, segments, and categories to generate actionable insights and strategic recommendations for business growth.
+![Dashboard Preview](./dashboard_overview.png)  
 
-Author: Nguyen Anh Huy
+**Author:** Nguyễn Anh Huy  
+**Date:** August 2025  
+**Tools Used:** Power BI, DAX, Data Modeling  
 
-Date: 18/03/2025
+---
 
-Tools used: Power BI (DAX & Visualization)
+## 📑 Table of Contents  
+- 📌 [Background & Overview](#-background--overview)  
+- 📂 [Dataset Description & Data Structure](#-dataset-description--data-structure)  
+- 🧠 [Design Thinking Process](#-design-thinking-process)  
+- 📊 [Key Insights & Visualizations](#-key-insights--visualizations)  
+- 🔎 [Final Conclusion & Recommendation](#-final-conclusion--recommendation)  
 
-## Table of Contents
+---
 
-[I. Background & Overview](https://github.com/yuhanguyen/Global-Superstore-Sales-Analysis/blob/main/README.md#i-background--overview)
+## 📌 Background & Overview  
 
-[II. Dataset Description & Data Structure](https://github.com/yuhanguyen/Global-Superstore-Sales-Analysis/blob/main/README.md#ii-dataset-description--data-structure)
+### 🎯 Objective  
+This project delivers a **Power BI dashboard** built on the **Global Superstore dataset**, aimed at providing **senior managers** with clear, data-driven insights into:  
+- Retail sales performance across regions and product categories  
+- Market expansion opportunities with the highest ROI  
+- Customer and product strategies to sustain growth  
+- Operational efficiency across shipping, returns, and customer retention  
 
-[III. Design Thinking Process](https://github.com/yuhanguyen/Global-Superstore-Sales-Analysis/blob/main/README.md#iii-design-thinking-process)
+### 👤 Who is this project for?  
+✔️ Senior managers & executives needing strategic market insights  
+✔️ Data analysts & business analysts focusing on retail analytics  
+✔️ Marketing & sales teams targeting product and customer growth  
+✔️ Operations leaders optimizing shipping efficiency and returns  
 
-[IV. Key Insights & Visualizations](https://github.com/yuhanguyen/Global-Superstore-Sales-Analysis/blob/main/README.md#iv-key-insights--visualizations)
+### ❓ Key Business Questions  
+- What is the current **sales and profit performance** of Superstore?  
+- Which **markets and customer segments** drive the most revenue & margin?  
+- Which **products and categories** should be prioritized for growth?  
+- How can **shipping and operations** be optimized to reduce costs & returns?  
 
-[V.  Final Conclusion & Recommendations](https://github.com/yuhanguyen/Global-Superstore-Sales-Analysis/blob/main/README.md#v--final-conclusion--recommendations)
+---
 
-## I. Background & Overview
+## 📂 Dataset Description & Data Structure  
 
-### Objective:
+### 📌 Data Source  
+- **Source:** Global Superstore dataset (Kaggle)  
+- **Size:** ~51,000+ records  
+- **Format:** CSV  
 
-This project uses Power BI DAX & Visualization tool to analyze sales data from Global Superstore to:
+### 📊 Data Tables  
+1. **Orders** – Transaction & customer details (~51K records)  
+2. **Returns** – Returned orders log  
+3. **People** – Sales representatives by region  
 
-✔️ Have a better look at sales trends and performance, create actionable insights for further action.
+### 🔗 Data Relationships  
+| From Table | To Table | Join Key | Relationship Type |  
+|------------|----------|----------|------------------|  
+| Orders     | People   | Region   | Many-to-One      |  
+| Orders     | Returns  | Order ID | One-to-One (Left Join) |  
 
-✔️ Monitorize product portfolio's performnance, identify top product categories & top regions.
+---
 
-### Who is this project for?
+## 🧠 Design Thinking Process  
 
-✔️ Data analysts & business analysts
+1️⃣ **Empathize** → Understand senior managers’ need for high-level yet actionable dashboards  
+2️⃣ **Define** → Focus on profitability, growth, and operational efficiency  
+3️⃣ **Ideate** → Map key KPIs (Sales, Profit, Orders, Returns, Margins, AOV, Customer Growth)  
+4️⃣ **Prototype & Review** → Build iterative dashboards with 3 lenses: **Overview, Market, Product**  
 
-✔️ Sales manager & stakeholders
+---
 
-## II. Dataset Description & Data Structure
+## 📊 Key Insights & Visualizations  
 
-The dataset consist of 3 tables: Orders, People, Returns. Here is the Data dictionary:
+### I. Overview Dashboard  
+<img width="1431" height="801" alt="image" src="https://github.com/user-attachments/assets/58273259-e5fd-4cb3-95ff-49e491f7b0ca" /> 
 
-**Orders.csv**
+📌 **Findings:**  
+1. **Revenue & Profit Surge** – Sales hit **$12.64M (+51.5% YoY)** and profit **$1.47M (+52.3%)**, but profit margin stayed flat at **11.6%**, signaling rising costs.  
+2. **Customer Base Growth** – Expanded from 1,309 (2011) → 1,511 (2014), with consistent retention.  
+3. **Return Rate Down** – Returns fell by **-49% YoY**, improving operational efficiency.  
+4. **Consumer Segment Leads** – Contributed **$6.5M sales**, stable margin (~11–12%).  
+5. **Technology Dominates** – Highest revenue ($4.7M) and strong margins (14%), but some SKUs show high returns.  
 
-| Column | Data type | Description |
-| :---: | :---: | :---: |
-| Order ID | TEXT | ID of the order |
-| Order Date | DATETIME | The date the order was placed |
-| Ship Date | DATETIME | The date the order was delivered |
-| Region | TEXT | Name of the region where the order was placed |
-| Product ID | TEXT | ID of the ordered product |
-| Category | TEXT | Category of the ordered product |
-| Sub-Category | TEXT | Sub-category of the ordered product |
-| Product Name | TEXT | Name of the ordered product |
-| Sales | FLOAT | The total price of the order |
-| Quantity | INTEGER | The number of product ordered |
-| Profit | FLOAT | The total profit of the order |
+---
 
-**People.csv**
+### II. Market Dashboard  
+<img width="1433" height="800" alt="image" src="https://github.com/user-attachments/assets/c2d185ab-97bc-419d-8ac2-e51b2f66b8e9" />
 
-| Column | Data type | Description |
-| :---: | :---: | :---: |
-| Person | TEXT | Name of Salesperson |
-| Region | TEXT | Region where the Salesperson is in chart of |
+📌 **Findings:**  
+1. **Market Leaders** – APAC ($3.59M), EU ($2.94M), and US ($2.3M) dominate sales.  
+2. **Profitability** – Canada has highest margin (26.6%) despite low revenue, while LATAM & EMEA struggle with <10% margins.  
+3. **Growth Markets** – EMEA (+47.4%) and EU (+36.8%) saw strongest sales growth in 2014.  
+4. **Customer Distribution** – Central & South regions hold the largest customer base; Africa & Oceania attract most new customers.  
+5. **Shipping Efficiency** – Canada & EU face longer ship deltas (~4 days), while APAC balances efficiency with lower return rates.  
 
-**Returns.csv**
+---
 
-| Column | Data type | Description |
-| :---: | :---: | :---: |
-| Returned | BOOLEAN | Returned orders |
-| Order ID | TEXT | ID of returned orders |
+### III. Product Dashboard  
+<img width="1432" height="800" alt="image" src="https://github.com/user-attachments/assets/7ddd0f59-238b-4d14-a99a-700f2a03cc5c" />  
 
-**Data Model**
+📌 **Findings:**  
+1. **Sub-Category Leaders** – Phones, Copiers, and Chairs drive most revenue; Accessories, Art, and Labels yield highest margins.  
+2. **Weak Products** – Tables (-8.4% margin) and Furnishings dilute profitability.  
+3. **Pareto Analysis** – Top 20% of products contribute ~80% of sales.  
+4. **Shipping Insights** – Standard Class dominates sales ($7.6M), showing customers prefer cost-effective delivery.  
+5. **Top Products** – Cisco & Motorola Phones, Canon Copiers are most profitable; some Samsung SKUs underperform with negative margins.  
+
+---
+
+## 🔎 Final Conclusion & Recommendation  
+
+### 📌 1. Market Expansion  
+- **Insight:** Canada shows the **highest profit margin (26.6%)** despite lower sales; EMEA & Africa demonstrate the **fastest growth rates**.  
+- **Recommendation:**  
+  - Position **Canada as a strategic profit market**, focus on scaling revenue.  
+  - Invest in **EMEA & Africa** to capture long-term growth opportunities.  
+  - Closely monitor **operational costs in EU & US** as margins are stagnating.  
+
+---
+
+### 📌 2. Product Portfolio  
+- **Insight:** Technology leads with **$4.7M in sales**; Accessories & Labels, while smaller, deliver **higher profit margins**. Conversely, Tables (-8.4% margin) & Furnishings dilute profitability.  
+- **Recommendation:**  
+  - **Double down on Technology** and high-margin niche products (Accessories, Labels).  
+  - Develop new SKUs in **profitable categories**.  
+  - **Phase out or reduce focus** on underperforming categories (Tables, Furnishings).  
+
+---
+
+### 📌 3. Customer Growth & Retention  
+- **Insight:** 99% of sales come from **existing customers**; Oceania & Africa show **strong new customer acquisition**.  
+- **Recommendation:**  
+  - Strengthen **customer retention** via loyalty programs, personalized offers, and after-sales services.  
+  - Expand **customer acquisition campaigns** in Oceania & Africa with localized marketing.  
+  - Apply **Customer Lifetime Value (CLV) segmentation** to guide retention and growth strategies.  
+
+---
+
+### 📌 4. Operations & Efficiency  
+- **Insight:** Standard Class dominates ($7.6M sales), indicating customer preference for economical shipping. Canada & EU face **longer ship times (~4 days)**; profit margins in US/EU are stagnating.  
+- **Recommendation:**  
+  - **Rebalance shipping mix**, optimizing between Standard and faster methods.  
+  - Shorten **ship delta in Canada & EU** to improve customer experience.  
+  - Replicate the **high-performance model in Central region** across other geographies.  
+
+---
+
+### ✨ Overall Business Impact  
+Implementing these recommendations will enable:  
+- **Sustainable revenue and profit growth** through market expansion and product optimization.  
+- **Higher customer lifetime value & reduced churn** via stronger retention strategies.  
+- **Improved operational efficiency** through logistics and shipping optimization.  
 
-![image](https://github.com/user-attachments/assets/011aa946-092d-4e70-8db9-1396b61d2296)
 
-
-## III. Design Thinking Process
-The Design Thinking Process was implied to understand dashboard viewers' need to create the best dashboard. The process consist of the following 4 steps:
-
-1️⃣ Empathize
-
-![image](https://github.com/user-attachments/assets/e263602f-9f82-4775-b6a4-7f1cfb5cabf3)
-
-![image](https://github.com/user-attachments/assets/de8335d1-26d7-4998-8532-faf045be4886)
-
-2️⃣ Define point of view
-
-![image](https://github.com/user-attachments/assets/7aa98ed5-206e-4b05-a031-65e5de922f30)
-
-![image](https://github.com/user-attachments/assets/94c632f3-26cc-46b4-b8b4-afea8ff23651)
-
-3️⃣ Ideate
-
-![image](https://github.com/user-attachments/assets/c37dc1a3-1975-4d0f-a231-622284ad63e4)
-
-![image](https://github.com/user-attachments/assets/6412c019-52f8-4081-a843-f8d21da6dbcf)
-
-4️⃣ Prototype and review
-
-![image](https://github.com/user-attachments/assets/08fe17bb-aab6-4be1-ba8a-a169e8dfe0ce)
-
-
-## IV. Key Insights & Visualizations
-
-**Dashboard**
-
-![image](https://github.com/user-attachments/assets/efff906f-050f-45f9-afe1-d9d72cb2c04f)
-
-**Key Insights**
-
-**OVerview**
-
-+ Sales reached $12.64M, with $1.47M profit → Profit margin of about 11.6%.
-
-+ Total orders: 26K orders, but 3,050 orders were returned, corresponding to a return rate of 4.55%.
-
-+ Sales trend over time: Sales growth was quite stable from 2011-2014, but there were some fluctuations. The first and second quarters of the years recorded lower sales compared to the third and fourth quarters.
-
-
-**Region**
-
-+ Central has the highest sales ($2.8M)
-
-+ Canada & Caribbean has the lowest sales ($0.1M & $0.3M)
-
-+ Southeast Asia has great potential ($0.9M) due to its high population and growing economy
-
-
-**Category**
-
-+ Technology accounts for the largest share (37.53%)
-
-+ Furniture also has high sales, but may have low profit margins due to high costs.
-
-+ Office Supplies has a share of nearly 30%, but low order value.
-
-**Sub-category**
-
-+ Phones are the best-selling product → But the profit margin is quite low due to high costs
-
-+ Chairs and Copiers are also very potential, possibly due to high office demand.
-
-+ Some categories have very low sales, which may need to be eliminated or the strategy adjusted.
-
-+ Tables are the only item with negative profit (-8.46%)
-
-## V.  Final Conclusion & Recommendations
-
-**Region**
-
-+ Strengthen marketing strategy in Southeast Asia, as this region has a large population and strong economy.
-
-+ Optimize costs in Central to increase profits.
-
-+ Consider exiting or improving strategy in Canada & Caribbean.
-
-
-**Category**
-
-+ Expand your portfolio of high-end technology or products with better profit margins.
-
-+ Boost marketing & upsell for Furniture, especially high-value products.
-
-+ Run combo promotion campaigns for Office Supplies to increase order value.
-
-
-**Sub-category**
-
-+ Expand phone portfolio, add upsell accessories to increase revenue.
-
-+ Increase advertising for chairs & photocopiers, especially in the business segment.
-
-+ Eliminate or optimize low-sales or low-profit categories such as Tables , Fasteners, or Envelopes.
