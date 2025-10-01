@@ -1,6 +1,7 @@
 # 🛒 Sales Analysis in Retail Using Power BI | Global Superstore  
 
-![Dashboard Preview](./dashboard_overview.png)  
+<img width="600" height="417" alt="Retail-Marketing-là-gì-và-trong-thực-thế-nó-như-nào" src="https://github.com/user-attachments/assets/d2493e88-1867-495a-a809-7b67ddc17319" />
+
 
 **Author:** Nguyễn Anh Huy  
 **Date:** August 2025  
